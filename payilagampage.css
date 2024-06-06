@@ -1,0 +1,275 @@
+*{
+    margin: 0%;
+    padding: 0%;   
+    box-sizing: border-box;
+}
+.container{
+    width: 65%; 
+    background-color: white;
+    margin: auto;
+    padding: 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.topPara{
+    background-image: radial-gradient(circle at center, rgba(0, 33, 71, 0.86) 0%, rgba(0, 33, 71, 0.9) 100%), url(./imgfol/payilagambackground.jpg) !important;
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Best JavaScript Course in Chennai : Become a JavaScript Professional 37, 51, 78,*/
+
+
+h2{
+    color: #002147;
+    line-height: 51px; 
+    font-size: 46px; 
+    margin: 38.18px 0px;
+    
+   
+}
+
+.toph1{
+    color: white;
+}
+
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 28px;
+    margin: 20px 0px;
+    
+}
+
+.top1{
+    color: whitesmoke;
+}
+
+.top1 > .highlightword{
+    color: #fdc800;
+    font-size: 28px;
+}
+
+.highlightword{
+    color: #0a3e7a;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+/* Syllabus of JavaScript Course in Chennai */
+
+.box1, .box2, .box3, .box4{
+    display: flex;
+}
+.subtop{
+    width: 500px;
+    height: 350px;
+    padding: 40px;
+    background-image: linear-gradient(white, white);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-bottom: 5px solid #002147;
+   
+
+}
+
+h3{
+    font-size: 27px; 
+    color: #0a3e7a;
+    margin: 27px 0px;
+} 
+
+ul li{
+    font-size: 20px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 35px;
+     
+}
+
+/* Key Features of JavaScript Training in Chennai */
+
+.secondpara{
+    margin-top: 70px;
+}
+
+.inner{
+    display: flex;
+    align-items: last baseline;
+}
+
+.inner .left{
+    margin: 30px;
+}
+
+
+
+/* Quick Enquiry  */
+
+.enquirypage{
+    width: 500px;
+    border-bottom: 5px solid #002147; 
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.enquiryhead{
+    margin-left: 80px;
+}
+.en__subPage{
+    margin: 50px;
+    color: #444444;
+    font-size: 25px;
+
+}
+
+.en__subPage input{
+    padding: 10px;
+    border-radius: 5px;
+    }
+
+.name, .email{
+    margin-left: 43px;
+}    
+
+input:hover{
+    border: 1px solid #0a3e7a;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.subBut{
+    font-size: 23px;
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    background-color: #0a3e7a;
+    color: white;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+
+.question__contant{
+    background-color: #002147;
+    padding: 30px;
+}
+
+/* Trainer Profile of JavaScript Training in Chennai */
+.trainer{
+    display: flex;
+}
+
+.muthu, .vijay{
+    width: 510px;
+    height: 200px;
+    background-color: #f8f8f8;
+    padding: 30px 28px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    margin-left: 40px;
+    display: flex;
+
+}
+
+.muthu .left a img, .vijay .left a img{ 
+    width: 150px;
+    height: 150px;
+    border: ipx solid #f8f8f8;
+    border-radius: 50%;
+    
+    margin-right: 25px;
+    
+}
+
+.t_name{
+    color: #0a3e7a;
+    width: 800;
+    font-size: 25px;
+}
+
+/*  Frequently Asked Question  */
+.question__contant1{
+    background-color: #d1a60b;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px gray;
+
+}
+
+.question__contant1-quest{
+    font-weight: 600;
+    font-size: 23px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.question__contant p{
+    color: white;
+}
+
+.question__contant1-ans{
+    display: none;
+}
+
+.question__contant1:hover .question__contant1-ans{
+    display: block;
+}
+
+@media(max-width:640px){
+    .container{
+        width: 100%;
+        padding: 30px;
+    } 
+    /* Best JavaScript Course in Chennai : Become a JavaScript Professional 37, 51, 78,*/
+    h2{
+        color: #002147;
+        line-height: 35px; 
+        font-size: 32px; 
+        margin: 28px 0px;
+    }
+    /* Syllabus of JavaScript Course in Chennai */
+    .box1, .box2, .box3, .box4{
+        display: flex;
+        flex-direction: column;
+    }
+    /* Key Features of JavaScript Training in Chennai */
+    .inner{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .inner .left{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    
+    
+    /* Trainer Profile of JavaScript Training in Chennai */
+    .trainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .muthu, .vijay{
+        margin-top: 40px;
+    
+    }
+    .muthu .left a img, .vijay .left a img{ 
+        margin-top: 0px;
+    }
+    /* Quick Enquiry  */
+
+    .enquirypage{
+        margin-bottom: 70px;
+    
+    }
+    
+
+}   
