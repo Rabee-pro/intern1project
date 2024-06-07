@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 .container{
-    width: 65%; 
+    width: 70%; 
     background-color: white;
     margin: auto;
-    padding: 35px;
+    padding: 35px; 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
