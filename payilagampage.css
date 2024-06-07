@@ -203,7 +203,38 @@ input:hover{
 }
 
 /*  Frequently Asked Question  */
+
+.question h2{
+    margin-bottom: 0;
+}
+.question__contant{
+    background-color: white;
+}
 .question__contant1{
+    background-color:  white;
+    border-bottom: 1px solid gray;
+
+}
+
+.question__contant1-quest{
+    font-weight: 600;
+    font-size: 23px;
+    cursor: pointer;
+}
+.question__contant p{
+    color: #0a3e7a;
+}
+
+.question__contant1-ans{
+    display: none;
+}
+
+.question__contant1:hover .question__contant1-ans{
+    display: block;
+    color: #444444;
+}
+
+/* .question__contant1{
     background-color: #d1a60b;
     padding: 20px;
     margin-bottom: 20px;
@@ -227,7 +258,7 @@ input:hover{
 
 .question__contant1:hover .question__contant1-ans{
     display: block;
-}
+} */
 
 @media(max-width:640px){
     .container{
