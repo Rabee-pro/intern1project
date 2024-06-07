@@ -246,6 +246,11 @@ input:hover{
         display: flex;
         flex-direction: column;
     }
+    .subtop{
+        width: 400px;
+        height: 450px; 
+        padding: 30px; 
+    }
     /* Key Features of JavaScript Training in Chennai */
     .inner{
         display: flex;
@@ -264,10 +269,14 @@ input:hover{
         display: flex;
         flex-direction: column;
     }
+   
     .muthu, .vijay{
         margin-top: 40px;
+        width: 450px;
+        padding: 30px 20px;
     
     }
+    
     .muthu .left a img, .vijay .left a img{ 
         margin-top: 0px;
     }
