@@ -65,6 +65,7 @@ p{
 
 .box1, .box2, .box3, .box4{
     display: flex;
+    justify-content: space-between;
 }
 .subtop{
     width: 500px;
@@ -88,7 +89,7 @@ p{
 h3{
     font-size: 27px; 
     color: #0a3e7a;
-    margin: 27px 0px;
+    margin: 20px 0px;
 } 
 
 ul li{
