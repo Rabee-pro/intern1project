@@ -68,8 +68,9 @@ p{
 }
 .subtop{
     width: 500px;
-    height: 350px;
-    padding: 40px;
+    height: 400px; 
+    padding: 40px; 
+    padding-left: 50px;
     background-image: linear-gradient(white, white);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 20px;
@@ -78,6 +79,10 @@ p{
     border-bottom: 5px solid #002147;
    
 
+}
+
+.box1 .subtop{
+    height: 300px;
 }
 
 h3{
