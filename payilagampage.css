@@ -68,7 +68,7 @@ p{
     justify-content: space-between;
 }
 .subtop{
-    width: 500px;
+    width: 450px;
     height: 401px; 
     padding: 40px; 
     padding-left: 50px;
@@ -108,11 +108,12 @@ ul li{
 
 .inner{
     display: flex;
-    align-items: last baseline;
+    /* align-items: last baseline; */
 }
 
-.inner .left{
+.inner .right{
     margin: 30px;
+    align-self: baseline;
 }
 
 
@@ -251,7 +252,7 @@ input:hover{
         flex-direction: column;
         
     }
-    .inner .left{
+    .inner .right{
         display: flex;
         flex-direction: column;
         align-self: center;
